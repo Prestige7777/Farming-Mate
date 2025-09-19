@@ -9,7 +9,7 @@ import StoryCard from "../components/story/StoryCard";
 import { getFeaturedProducts, getAllFarmers, getAllStories } from "../utils/api";
 import logoImage from '../assets/icons/로고누끼.png';
 import "./HomePage.css";
-import "../styles/home/slider.css";
+import "../styles/home/Slider.css";
 import "../styles/home/quick-actions.css";
 import "../styles/home/products.css";
 
