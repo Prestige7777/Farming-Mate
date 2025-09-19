@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../auth/AuthProvider.jsx";
-import "../../styles/home/slider.css";
+import "../../styles/home/Slider.css";
 import { DEFAULT_IMAGE_URL } from '../../utils/constants';
 
 // assets import
