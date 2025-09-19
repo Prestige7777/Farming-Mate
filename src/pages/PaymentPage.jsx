@@ -193,7 +193,7 @@ const PaymentPage = () => {
               className={`payment-method-button ${selectedPaymentMethod === '삼성페이' ? 'selected' : ''}`}
               onClick={() => handlePaymentMethodSelect('삼성페이')}
             >
-              <img src="/src/assets/images/samsung_pay.png" alt="삼성페이" />
+              <img src="/samsung_pay.png" alt="삼성페이" />
               <span>삼성페이</span>
             </Button>
             <Button
@@ -201,7 +201,7 @@ const PaymentPage = () => {
               className={`payment-method-button ${selectedPaymentMethod === '애플페이' ? 'selected' : ''}`}
               onClick={() => handlePaymentMethodSelect('애플페이')}
             >
-              <img src="/src/assets/images/apple_pay.jpg" alt="애플페이" />
+              <img src="/apple_pay.jpg" alt="애플페이" />
               <span>애플페이</span>
             </Button>
             <Button
@@ -209,7 +209,7 @@ const PaymentPage = () => {
               className={`payment-method-button ${selectedPaymentMethod === '네이버페이' ? 'selected' : ''}`}
               onClick={() => handlePaymentMethodSelect('네이버페이')}
             >
-              <img src="/src/assets/images/naver_pay.jpg" alt="네이버페이" />
+              <img src="/naver_pay.jpg" alt="네이버페이" />
               <span>네이버페이</span>
             </Button>
             <Button
@@ -217,7 +217,7 @@ const PaymentPage = () => {
               className={`payment-method-button ${selectedPaymentMethod === '카카오페이' ? 'selected' : ''}`}
               onClick={() => handlePaymentMethodSelect('카카오페이')}
             >
-              <img src="/src/assets/images/kakao_pay.jpg" alt="카카오페이" />
+              <img src="/kakao_pay.jpg" alt="카카오페이" />
               <span>카카오페이</span>
             </Button>
             {/* 추가 결제 수단 (신용카드, 계좌이체 등) */}

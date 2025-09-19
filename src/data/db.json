@@ -60,7 +60,7 @@
       "id": "farmer003",
       "email": "farmer3@example.com",
       "password": "1234",
-      "name": "이성실",
+      "name": "이런식",
       "role": "farmer",
       "profileImageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fst2.depositphotos.com%2F1480128%2F7580%2Fi%2F450%2Fdepositphotos_75807455-stock-photo-farmer-in-soybean-fields.jpg&type=a340",
       "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxOTAxMTlfMTMy%2FMDAxNTQ3ODI4MzY5MDEy.kKZAPSkymGOwlMBQF9mjrSNZbyoJh-sOr08bfmlZHMIg.4bqBdafPviz9gtCU30PuOPwQrZWvAKrpDlWzPPMJD5Ig.JPEG.kwanghi_sung%2Fm.1406093452.1703.4.jpg&type=a340",
@@ -828,6 +828,15 @@
       "name": "제주도 방울토마토",
       "price": 20000,
       "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_5642727%2F56427270285.jpg&type=f372_372",
+      "quantity": 1
+    },
+    {
+      "id": "7df3",
+      "userId": "admin001",
+      "productId": "prod003",
+      "name": "이천 쌀",
+      "price": 25000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMDFfMTg0%2FMDAxNzQwNzkxNzE2NDc3.SfV0gHaNKxUoBqhZjBfXage7TmNjciTP_br61B4DgAog.FGKDAUrUp22d0sqFrfXIzeDmNMk5GlLF88t1fKB3Xcgg.JPEG%2F86552da0-c79e-403f-a581-ab46356e8501.jpg&type=a340",
       "quantity": 1
     }
   ],
