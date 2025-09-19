@@ -1,0 +1,184 @@
+/* src/pages/admin/UserManagement.css */
+
+.user-management {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  min-height: calc(100vh - 60px); /* Adjust based on header/footer height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.user-management h2 {
+  color: #212529;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.user-management .page-subtitle {
+  font-size: 1.1em;
+  color: #6c757d;
+  margin-bottom: 30px;
+}
+
+.admin-table-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  overflow-x: auto; /* For responsive tables */
+  margin-top: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #e9ecef;
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.admin-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #495057;
+  white-space: nowrap; /* Prevent header text from wrapping */
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #e9ecef;
+}
+
+/* Button Styling */
+.filter-buttons .button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.95em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #ced4da;
+  background-color: #e9ecef;
+  color: #495057;
+  margin-right: 10px;
+}
+
+.filter-buttons .button:hover {
+  background-color: #dee2e6;
+  border-color: #adb5bd;
+}
+
+.filter-buttons .button.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.filter-buttons .button.active:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.admin-action-button {
+  background-color: #28a745; /* Success green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-bottom: 20px;
+}
+
+.admin-action-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+
+.small-button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+.small-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.small-button.delete-button {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.small-button.delete-button:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+/* Form styling for create user modal */
+.create-user-form .form-group {
+  margin-bottom: 15px;
+}
+
+.create-user-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.create-user-form .form-group input[type="email"],
+.create-user-form .form-group input[type="password"],
+.create-user-form .form-group input[type="text"],
+.create-user-form .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.create-user-form .form-group input:focus,
+.create-user-form .form-group select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.create-user-form .submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.create-user-form .submit-button:hover {
+  background-color: #0056b3;
+}

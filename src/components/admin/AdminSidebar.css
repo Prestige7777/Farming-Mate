@@ -1,0 +1,97 @@
+/* src/components/admin/AdminSidebar.css */
+
+.admin-sidebar {
+  width: 240px;
+  height: 100vh;
+  background-color: #2c3e50; /* 어두운 네이비 계열 */
+  color: #ecf0f1; /* 밝은 회색 텍스트 */
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.admin-sidebar-header {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.admin-sidebar-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.admin-sidebar-logo .logo-icon {
+  font-size: 24px;
+}
+
+.admin-nav {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-nav-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  color: #bdc3c7; /* 기본 링크 색상 */
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.2s, color 0.2s;
+  border-left: 4px solid transparent;
+}
+
+.admin-nav-item:hover {
+  background-color: #34495e; /* 호버 시 배경 */
+  color: #ffffff;
+}
+
+.admin-nav-item.active {
+  background-color: #34495e;
+  color: #ffffff;
+  font-weight: 500;
+  border-left: 4px solid #3498db; /* 활성 링크 표시 */
+}
+
+.admin-nav-icon {
+  margin-right: 16px;
+  font-size: 20px;
+  width: 24px;
+  text-align: center;
+}
+
+.admin-sidebar-footer {
+  padding: 20px;
+  border-top: 1px solid #34495e;
+  font-size: 14px;
+}
+
+.admin-sidebar-footer .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.admin-sidebar-footer .logout-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.admin-sidebar-footer .logout-btn:hover {
+  background-color: #c0392b;
+}

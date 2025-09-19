@@ -1,0 +1,152 @@
+/* src/components/admin/UserDetailsModal.css */
+
+.user-details-content {
+  padding: 15px;
+}
+
+.user-info-display p {
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #343a40;
+}
+
+.user-info-display strong {
+  color: #212529;
+}
+
+.farmer-products-section {
+  margin-top: 20px;
+  border-top: 1px solid #e9ecef;
+  padding-top: 15px;
+}
+
+.farmer-products-section h3 {
+  font-size: 1.3em;
+  color: #495057;
+  margin-bottom: 15px;
+}
+
+.product-list-modal {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.product-item-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.product-image-modal {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.product-info-modal h4 {
+  font-size: 1em;
+  margin: 0 0 5px 0;
+  color: #343a40;
+}
+
+.product-info-modal p {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin: 0;
+}
+
+.json-editor-section {
+  margin-top: 20px;
+  border-top: 1px solid #e9ecef;
+  padding-top: 15px;
+}
+
+.json-editor-section h3 {
+  font-size: 1.3em;
+  color: #495057;
+  margin-bottom: 15px;
+}
+
+.json-editor-section .form-group {
+  margin-bottom: 15px;
+}
+
+.json-editor-section .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #495057;
+}
+
+.json-editor-section .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.json-editor-section .form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.json-editor-section .disabled-textarea {
+  background-color: #e9ecef;
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  border-top: 1px solid #e9ecef;
+  gap: 10px;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  font-weight: 500;
+}
+
+.modal-button.save-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-button.save-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.modal-button.cancel-button {
+  background-color: #6c757d;
+  color: white;
+}
+
+.modal-button.cancel-button:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(108, 117, 125, 0.2);
+}

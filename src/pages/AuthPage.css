@@ -1,0 +1,31 @@
+/* src/pages/AuthPage.css */
+
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.auth-main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+
+.auth-link-text {
+  color: #4b5563;
+  margin-top: 1rem;
+}
+
+.auth-link {
+  color: #16a34a;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease-in-out;
+}
+.auth-link:hover {
+  text-decoration: underline;
+}

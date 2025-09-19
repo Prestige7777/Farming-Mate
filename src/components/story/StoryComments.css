@@ -1,0 +1,84 @@
+/* src/components/story/StoryComments.css */
+
+.comments-section {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.comments-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.comment-form-container {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background-color: #f9fafb;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  margin-bottom: 0.75rem;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.comment-textarea:focus {
+  outline: none;
+  border-color: #16a34a;
+  box-shadow: 0 0 0 1px #16a34a;
+}
+
+.submit-comment-btn {
+  width: 100%;
+}
+
+.no-comments-message {
+  color: #666;
+  text-align: center;
+}
+
+.comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.comment-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 0.75rem;
+}
+
+.comment-item:last-child {
+  border-bottom: none;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.comment-author {
+  font-weight: 600;
+  color: #333;
+  margin-right: 0.5rem;
+}
+
+.comment-date {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.comment-content {
+  color: #4b5563;
+}

@@ -1,0 +1,13 @@
+/* src/layouts/AdminLayout.css */
+
+.admin-layout {
+  display: flex;
+}
+
+.admin-main-content {
+  flex-grow: 1;
+  margin-left: 240px; /* Same as sidebar width */
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #f4f7f6;
+}

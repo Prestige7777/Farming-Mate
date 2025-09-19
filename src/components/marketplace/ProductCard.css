@@ -1,0 +1,180 @@
+/* src/components/marketplace/ProductCard.css */
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.product-card-header {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.farmer-info-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.farmer-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  border: 1px solid #ddd;
+}
+
+.farmer-name {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.product-card-image-link {
+  display: block;
+  width: 100%;
+  height: 200px; /* Fixed height for images */
+  overflow: hidden;
+}
+
+.product-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-card-image-link:hover .product-card-image {
+  transform: scale(1.05);
+}
+
+.product-card-body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-card-title {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.product-card-price {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.product-card-desc {
+  font-size: 0.9em;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  flex-grow: 1; /* Allow description to take up space */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card-tags {
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.product-card-tag {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.product-card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: auto; /* Push buttons to the bottom */
+}
+
+.product-card-button {
+  flex: 1; /* Make buttons take equal width */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.95em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+  background-color: #28a745; /* Default for Add to Cart */
+  color: white;
+}
+
+.product-card-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+}
+
+.product-card-button.buy-now-button {
+  background-color: #007bff; /* Primary color for Buy Now */
+}
+
+.product-card-button.buy-now-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.product-card-image-link {
+  position: relative; /* 하트 아이콘 위치 지정을 위해 */
+}
+
+.wishlist-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s ease;
+  z-index: 10; /* 이미지 위에 오도록 */
+}
+
+.wishlist-icon:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.wishlist-icon.active {
+  color: red; /* 찜했을 때 하트 색상 */
+}

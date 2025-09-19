@@ -1,0 +1,852 @@
+{
+  "users": [
+    {
+      "id": "farmer001",
+      "email": "farmer@example.com",
+      "password": "1234",
+      "name": "김파밍",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5226%2F2019%2F06%2F10%2F0000005403_002_20190610172016412.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MjRfMjQ3%2FMDAxNzI0NDc1NzE2MDY4.EMXgkNjzvdaQztm3gAwXD4Iuv0Hp6mU5jE9Bmms3gccg.ZLFGe7jxACYGA4FdiiEwEz2dJGP5BTAkkUqdtsd3zNUg.JPEG%2F240821-0037.jpg&type=a340",
+      "bio": "흙과 땀, 그리고 진심. 자연의 시간표대로 정직하게 키운 작물을 선보입니다. #유기농 #파머김",
+      "address": "전라남도 보성군 녹차향로 50번길 8",
+      "isVerified": true,
+      "hasSmartFarm": true,
+      "farmName": "김씨네 유기농 텃밭",
+      "location": "강원도 평창 올림픽로 3길 143"
+    },
+    {
+      "id": "farmer002",
+      "email": "farmer2@example.com",
+      "password": "1234",
+      "name": "최싱싱",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzEyMjJfMTgw%2FMDAxNzAzMjE1OTY0Nzc5.SDgGN4_e-f7yevO4I2UgcbfOo7AiKOikCPkkPT8EU5Ag.OqncFTGFd8iNlHp-1y1RnPJBz8ptnUtRGEMsGHcarZAg.JPEG.4fdsddnmmpkak2%2F14.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5231%2F2020%2F06%2F24%2F0000263015_001_20200624212210111.jpg&type=a340",
+      "bio": "제주 해풍을 맞고 자란 당도 최고의 감귤! 한 번 맛보면 멈출 수 없어요. #제주감귤 #과즙팡팡",
+      "location": "제주도 서귀포시 감귤로 123번길 45",
+      "isVerified": true,
+      "hasSmartFarm": false,
+      "farmName": "제주 최가네 감귤농장"
+    },
+    {
+      "id": "u1757665876520",
+      "email": "iii@naver.com",
+      "password": "iiii",
+      "name": "요리왕 비룡",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "전국의 신선한 식재료를 찾아서! 최고의 요리는 최고의 재료에서 시작되죠."
+    },
+    {
+      "id": "u1757665941691",
+      "email": "1111@naver.com",
+      "password": "1111",
+      "name": "곽두팔",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "건강이 최고! 매일 아침 신선한 채소로 하루를 시작합니다."
+    },
+    {
+      "id": "admin001",
+      "email": "admin@test.com",
+      "password": "admin",
+      "name": "관리자",
+      "role": "admin",
+      "profileImageUrl": "",
+      "bio": "파밍메이트의 모든 것을 관리합니다."
+    },
+    {
+      "id": "farmer003",
+      "email": "farmer3@example.com",
+      "password": "1234",
+      "name": "이성실",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fst2.depositphotos.com%2F1480128%2F7580%2Fi%2F450%2Fdepositphotos_75807455-stock-photo-farmer-in-soybean-fields.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2FMjAxOTAxMTlfMTMy%2FMDAxNTQ3ODI4MzY5MDEy.kKZAPSkymGOwlMBQF9mjrSNZbyoJh-sOr08bfmlZHMIg.4bqBdafPviz9gtCU30PuOPwQrZWvAKrpDlWzPPMJD5Ig.JPEG.kwanghi_sung%2Fm.1406093452.1703.4.jpg&type=a340",
+      "bio": "임금님표 이천 쌀, 밥맛 하나는 자신 있습니다. #이천쌀 #밥도둑",
+      "location": "경기도 이천시 쌀밥정식로 88번길 10",
+      "isVerified": true,
+      "hasSmartFarm": true,
+      "farmName": "이천 성실농장"
+    },
+    {
+      "id": "farmer004",
+      "email": "farmer4@example.com",
+      "password": "1234",
+      "name": "박건강",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjAxMTdfMjQ2%2FMDAxNjQyMzU0MTEzMjMx.G9NYz2NGkxK7XPQ-0iYAYN8uf-tj1d1dnfA2DmJU7ksg.2e0r6h3qxU8GS88lFbG3TKLufUWLx-loN918GXD4N_Eg.JPEG.silverzeroim%2FGCN_2801.jpg&type=sc960_832",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F081%2F2024%2F10%2F16%2F0003487370_001_20241016050309709.jpg&type=a340",
+      "bio": "몸에 좋은 제천 약초로 건강을 선물하세요. #제천약초 #건강이최고",
+      "location": "충청북도 제천시 의림지로 200번길 30",
+      "isVerified": true,
+      "hasSmartFarm": false,
+      "farmName": "박씨네 약초방"
+    },
+    {
+      "id": "farmer005",
+      "email": "farmer5@example.com",
+      "password": "1234",
+      "name": "정푸릇",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fst2.depositphotos.com%2F3086563%2F5282%2Fi%2F450%2Fdepositphotos_52824635-stock-photo-woman-traveler-outdoors-portrait.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/sunny/?src=http%3A%2F%2Fcdn.ppomppu.co.kr%2Fzboard%2Fdata3%2F2020%2F0715%2F20200715131638_goxlzrwp.jpg&type=a340",
+      "bio": "순천만 국가정원의 기운을 받아 자란 푸릇푸릇 신선 채소! #순천 #신선채소",
+      "location": "전라남도 순천시 순천만국가정원길 500번지",
+      "isVerified": true,
+      "hasSmartFarm": true,
+      "farmName": "푸릇푸릇 정원"
+    },
+    {
+      "id": "farmer006",
+      "email": "farmer6@example.com",
+      "password": "1234",
+      "name": "윤탐스",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20240628_77%2F1719555589882ipYNP_JPEG%2F30449270166096022_215866222.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMjRfNzcg%2FMDAxNzAwODI4MDYyOTUy.jlkeB-GjPGoEeOrac2pIMtGoWGUDQ7QaAhpkX-5CaXYg.Q9U6ZMKqgjPenPlpLmiUCbzHvKknlws9xKtFNY55MCgg.JPEG.riacompany2021%2FCK_cm270034858_l.jpg&type=a340",
+      "bio": "곶감의 명가 상주에서 정성으로 말린 달콤 쫀득 곶감! #상주곶감 #겨울간식",
+      "location": "경상북도 상주시 곶감로 777번길 11",
+      "isVerified": true,
+      "hasSmartFarm": false,
+      "farmName": "탐스러운 곶감"
+    },
+    {
+      "id": "consumer001",
+      "email": "consumer1@example.com",
+      "password": "1234",
+      "name": "김깐깐",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "우리 가족이 먹을 음식, 깐깐하게 고릅니다."
+    },
+    {
+      "id": "consumer002",
+      "email": "consumer2@example.com",
+      "password": "1234",
+      "name": "이식탐",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "세상의 모든 맛있는 음식을 찾아서! #먹방 #맛집탐방"
+    },
+    {
+      "id": "consumer003",
+      "email": "consumer3@example.com",
+      "password": "1234",
+      "name": "박살림",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "알뜰살뜰 살림꾼! 좋은 물건 싸게 사는 게 취미에요."
+    },
+    {
+      "id": "consumer004",
+      "email": "consumer4@example.com",
+      "password": "1234",
+      "name": "최고객",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "고객은 왕! 최고의 서비스를 경험하고 싶어요."
+    },
+    {
+      "id": "consumer005",
+      "email": "consumer5@example.com",
+      "password": "1234",
+      "name": "한유저",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "파밍메이트의 모든 기능을 사용해보는 열정 유저!"
+    },
+    {
+      "id": "consumer006",
+      "email": "consumer6@example.com",
+      "password": "1234",
+      "name": "신입생",
+      "role": "consumer",
+      "profileImageUrl": "",
+      "bio": "파밍메이트에 새로 가입했어요! 잘 부탁드립니다~"
+    },
+    {
+      "id": "farmer007",
+      "email": "farmer7@example.com",
+      "password": "1234",
+      "name": "오싱싱",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F312%2F2015%2F09%2F22%2F2015092215110812586-540x810_99_20150922151407.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMTJfMyAg%2FMDAxNzQxNzY1MjUwNzA4.YPOMxvFFuypx-UaZ2GJAH4v7VNlzcY7rl0WMTH3Z36Qg.knPq5QvCA5xcxMuNfg0_hJ4M80fhfl0w_xGLFxi5YgAg.JPEG%2F%25C0%25E5%25B5%25B6-2.jpg&type=a340",
+      "bio": "논산의 자랑, 새콤달콤 딸기가 왔어요! #논산딸기 #비타민충전",
+      "location": "충청남도 논산시 딸기로 123",
+      "isVerified": true,
+      "hasSmartFarm": true,
+      "farmName": "오씨네 딸기농장"
+    },
+    {
+      "id": "farmer008",
+      "email": "farmer8@example.com",
+      "password": "1234",
+      "name": "배달콤",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MTlfMzAw%2FMDAxNjYwODQzNDgxMDk0.l7FRMR65IcBPXLzNKszMB6UIecHlPp8Wd0XdkMtXdYYg.szGUwFrgcbRJAOrnb1Rmv9ymy1j_b0ttP0iaCpQcalMg.JPEG.manphoto2007%2F220817-2-0011.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MDZfMTEg%2FMDAxNzIyOTQ3MzA4MzAx.xJaV2vh57X49gnVYlkrwqv-TdzP-Hpy0pfVriOq8zJ8g.gkOixUbOzotXE93onkdbopNRCNGoCrQO6tnU_O0YJqQg.JPEG%2F20240806%25A3%25DF142425.jpg&type=a340",
+      "bio": "과즙이 팡팡! 나주 배의 명성을 그대로 담았습니다. #나주배 #달콤함의정석",
+      "location": "전라남도 나주시 배꽃길 45",
+      "isVerified": true,
+      "hasSmartFarm": false,
+      "farmName": "달콤 배 농원"
+    },
+    {
+      "id": "farmer009",
+      "email": "farmer9@example.com",
+      "password": "1234",
+      "name": "강건강",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160226_182%2F114hodo_1456496359093P6Cuq_JPEG%2F12687660371.jpg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20160101_53%2Fsuhyang_kim_145157427214164dIU_JPEG%2F%25C1%25A6%25C1%25D6_%25B1%25D6%25C3%25BC%25C7%25E8_%25C1%25A6%25C1%25D6%25B5%25B5_%25B1%25D6%25C3%25BC%25C7%25E8_%25C1%25A6%25C1%25D6%25B5%25B5_%25B0%25A8%25B1%25D6%25C3%25BC%25C7%25E8_%25C1%25A6%25C1%25D6%25B5%25B5_%25B1%25D6%25B5%25FB%25B1%25E2%25C3%25BC%25C7%25E8_%25C1%25A6%25C1%25D6%25B5%25B5_%25B1%25D6%25B3%25F3%25C0%25E5_13.jpg&type=a340",
+      "bio": "금산의 정기! 6년근 홍삼과 인삼으로 활력을 되찾으세요. #금산인삼 #홍삼파워",
+      "location": "충청남도 금산군 인삼로 789",
+      "isVerified": true,
+      "hasSmartFarm": true,
+      "farmName": "강씨네 인삼밭"
+    },
+    {
+      "id": "farmer010",
+      "email": "farmer10@example.com",
+      "password": "1234",
+      "name": "고소해",
+      "role": "farmer",
+      "profileImageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MjNfMjcw%2FMDAxNzQ3OTQ4MzA1NTY4.HG8Db1gAKau7m6DyOkZ6sEfdqq1Bf_jjUQk030JPyaMg.LTA4rmyzPXkxsj-RikxH9U8M4JEpYF3hHDCEjWxXDRsg.JPEG%2F900%25A3%25DF%25A3%25DF4085b2a0%25A3%25AD6609%25A3%25AD4905%25A3%25ADb09e%25A3%25AD6e90e920f6b7.jpeg&type=a340",
+      "profileBgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5085%2F2008%2F11%2F07%2F55361_60840_5220.jpg&type=a340",
+      "bio": "예천에서 자란 국산 참깨, 고소함이 남달라요. #예천참깨 #국산참기름",
+      "location": "경상북도 예천군 참깨길 10",
+      "isVerified": true,
+      "hasSmartFarm": false,
+      "farmName": "고소한 참깨마을"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod001",
+      "name": "유기농 복숭아",
+      "price": 12000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8969953%2F89699535517.2.jpg&type=f372_372",
+      "description": "GAP 인증, 당일 수확 배송",
+      "tags": [
+        "유기농",
+        "당일수확",
+        "복숭아"
+      ],
+      "farmerId": "farmer001",
+      "farmerName": "김파밍",
+      "isFeatured": true
+    },
+    {
+      "id": "prod002",
+      "name": "친환경 상추 묶음",
+      "price": 6500,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshop-phinf.pstatic.net%2F20250305_200%2F1741134362171LX10U_JPEG%2F34038831811762497_1921607388.jpg&type=a340",
+      "description": "농약 없이 키운 신선한 상추",
+      "tags": [
+        "친환경",
+        "소포장",
+        "상추"
+      ],
+      "farmerId": "farmer001",
+      "farmerName": "김파밍",
+      "isFeatured": true
+    },
+    {
+      "id": "3875",
+      "name": "제주도 방울토마토",
+      "price": 20000,
+      "description": "방울토마토입니다",
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_5642727%2F56427270285.jpg&type=f372_372",
+      "farmerId": "farmer002",
+      "farmerName": "최싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T01:29:44.527Z",
+      "tags": [
+        "유기농",
+        "친환경"
+      ]
+    },
+    {
+      "id": "1a96",
+      "name": "귤귤귤",
+      "price": 30000,
+      "description": "귤",
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMDNfMjEz%2FMDAxNzM4NTQ2NTUzMjU4.gy72c_Z2CDLos4OBWnBuRAVrbxI8t71oW2OKSHmsd30g.q9H-SO2vdMKTicXsuvoASjbhpxRz-vtQOPnieKfD3eMg.JPEG%2F%25B1%25D6_%25C8%25BF%25B4%25C9_%25C7%25CF%25B7%25E7_%25B1%25C7%25C0%25E5%25B7%25AE_%25282%2529.jpg&type=a340",
+      "tags": [
+        "유기농",
+        "소포장"
+      ],
+      "farmerId": "farmer002",
+      "farmerName": "최싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T01:31:57.846Z"
+    },
+    {
+      "id": "prod003",
+      "name": "이천 쌀",
+      "price": 25000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMDFfMTg0%2FMDAxNzQwNzkxNzE2NDc3.SfV0gHaNKxUoBqhZjBfXage7TmNjciTP_br61B4DgAog.FGKDAUrUp22d0sqFrfXIzeDmNMk5GlLF88t1fKB3Xcgg.JPEG%2F86552da0-c79e-403f-a581-ab46356e8501.jpg&type=a340",
+      "description": "임금님표 이천 쌀, 밥맛이 꿀맛!",
+      "tags": [
+        "쌀",
+        "유기농",
+        "이천"
+      ],
+      "farmerId": "farmer003",
+      "farmerName": "이싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:00:00.000Z"
+    },
+    {
+      "id": "prod004",
+      "name": "싱싱 배추",
+      "price": 8000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8271211%2F82712113343.jpg&type=f372_372",
+      "description": "김장 준비는 싱싱 배추로!",
+      "tags": [
+        "배추",
+        "김장",
+        "싱싱"
+      ],
+      "farmerId": "farmer003",
+      "farmerName": "이싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:05:00.000Z"
+    },
+    {
+      "id": "prod005",
+      "name": "제천 약초",
+      "price": 35000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8697449%2F86974490289.1.jpg&type=f372_372",
+      "description": "몸에 좋은 제천 약초, 건강을 선물하세요.",
+      "tags": [
+        "약초",
+        "건강",
+        "제천"
+      ],
+      "farmerId": "farmer004",
+      "farmerName": "박건강",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:10:00.000Z"
+    },
+    {
+      "id": "prod006",
+      "name": "건강한 사과",
+      "price": 18000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_5664220%2F56642204530.jpg&type=f372_372",
+      "description": "아삭하고 달콤한 건강 사과!",
+      "tags": [
+        "사과",
+        "과일",
+        "건강"
+      ],
+      "farmerId": "farmer004",
+      "farmerName": "박건강",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:15:00.000Z"
+    },
+    {
+      "id": "prod007",
+      "name": "순천 매실",
+      "price": 15000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA2MTZfMjc3%2FMDAxNzUwMDYxMDAxMjY0.MFVZ4RoWlHB4y9ZSEOxZWWaFkwFaDxOr4eOmmyL-B8Ug.Rzf-APw6frRyraa4QyjpBUh5LyBr2NE3Q8NUHs6dgWQg.JPEG%2F%25C3%25BB%25B8%25C5%25BD%25C7.jpeg&type=a340",
+      "description": "새콤달콤 순천 매실, 매실청 담그세요.",
+      "tags": [
+        "매실",
+        "과일",
+        "순천"
+      ],
+      "farmerId": "farmer005",
+      "farmerName": "정푸릇",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:20:00.000Z"
+    },
+    {
+      "id": "prod008",
+      "name": "푸릇푸릇 시금치",
+      "price": 5000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fsearchad-phinf.pstatic.net%2FMjAyMzA5MTRfMjAw%2FMDAxNjk0NjM4MTEyNTc1.04tvjAwhecK8SXCQz3S8HupOA5noORmOfXsQUATBvM4g.6huE7i9gX9ikfEQ0ZIqLQ0B8Tm9_MtdXyUr1VyCeC-gg.PNG%2F2231738-6494c9ce-297a-4d9d-b3cd-6eaa191cbdd8.png&type=f372_372",
+      "description": "싱싱함이 살아있는 푸릇푸릇 시금치.",
+      "tags": [
+        "시금치",
+        "채소",
+        "푸릇"
+      ],
+      "farmerId": "farmer005",
+      "farmerName": "정푸릇",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:25:00.000Z"
+    },
+    {
+      "id": "prod009",
+      "name": "상주 곶감",
+      "price": 28000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20250304_248%2F1741076400567rWiqi_PNG%2F8375682655890531_56569492.png&type=a340",
+      "description": "달콤 쫀득 상주 곶감, 겨울 간식으로 최고!",
+      "tags": [
+        "곶감",
+        "간식",
+        "상주"
+      ],
+      "farmerId": "farmer006",
+      "farmerName": "윤탐스",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:30:00.000Z"
+    },
+    {
+      "id": "prod010",
+      "name": "탐스러운 포도",
+      "price": 22000,
+      "imageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimage.yes24.com%2Fgoods%2F150644375%2FXL&type=a340",
+      "description": "알알이 꽉 찬 탐스러운 포도.",
+      "tags": [
+        "포도",
+        "과일",
+        "탐스"
+      ],
+      "farmerId": "farmer006",
+      "farmerName": "윤탐스",
+      "isFeatured": true,
+      "createdAt": "2025-09-15T08:35:00.000Z"
+    },
+    {
+      "id": "prod011",
+      "name": "논산 딸기",
+      "price": 18000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MTlfMjAy%2FMDAxNzQ3NjU0NzQ5NzUx.ykWsj7LWMFcvBoHaBIjGxSf3Yxq23UL8qfmBEFT7Ts0g.AMjMvOwTBTGUx6y_l-9xzsQ78dVofNkMa5GLh01s-Jgg.PNG%2F1.png&type=a340",
+      "description": "새콤달콤 논산 딸기, 비타민 충전!",
+      "tags": [
+        "딸기",
+        "친환경",
+        "유기농"
+      ],
+      "farmerId": "farmer007",
+      "farmerName": "오싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T09:00:00.000Z"
+    },
+    {
+      "id": "prod012",
+      "name": "나주 배",
+      "price": 25000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8453181%2F84531814441.3.jpg&type=f372_372",
+      "description": "과즙이 팡팡! 나주 배의 명성을 그대로 담았습니다.",
+      "tags": [
+        "배",
+        "소포장",
+        "유기농"
+      ],
+      "farmerId": "farmer008",
+      "farmerName": "배달콤",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T09:05:00.000Z"
+    },
+    {
+      "id": "prod013",
+      "name": "금산 인삼",
+      "price": 45000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20241206_299%2F1733452082740nY3fy_JPEG%2F13038000145616127_1759781479.jpg&type=a340",
+      "description": "금산의 정기! 6년근 홍삼과 인삼으로 활력을 되찾으세요.",
+      "tags": [
+        "인삼",
+        "친환경",
+        "소포장"
+      ],
+      "farmerId": "farmer009",
+      "farmerName": "강건강",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T09:10:00.000Z"
+    },
+    {
+      "id": "prod014",
+      "name": "예천 참깨",
+      "price": 15000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20250508_242%2F1746681096268W3JNW_JPEG%2F2492990377906921_1780781770.jpg&type=a340",
+      "description": "예천에서 자란 국산 참깨, 고소함이 남달라요.",
+      "tags": [
+        "참깨",
+        "유기농",
+        "친환경"
+      ],
+      "farmerId": "farmer010",
+      "farmerName": "고소해",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T09:15:00.000Z"
+    },
+    {
+      "id": "prod015",
+      "name": "햇살담은 블루베리",
+      "price": 16000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20250131_59%2F1738292066524hilrR_JPEG%2F27896242518071358_2044173752.jpg&type=a340",
+      "description": "탱글탱글 신선한 블루베리 한가득",
+      "tags": [
+        "블루베리",
+        "친환경",
+        "소포장"
+      ],
+      "farmerId": "farmer001",
+      "farmerName": "김파밍",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:00:00.000Z"
+    },
+    {
+      "id": "prod016",
+      "name": "아삭아삭 오이",
+      "price": 4000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8952271%2F89522712716.3.jpg&type=f372_372",
+      "description": "수분 가득! 아삭한 오이",
+      "tags": [
+        "오이",
+        "유기농",
+        "소포장"
+      ],
+      "farmerId": "farmer002",
+      "farmerName": "최싱싱",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:05:00.000Z"
+    },
+    {
+      "id": "prod017",
+      "name": "달콤한 대추방울토마토",
+      "price": 13000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8921196%2F89211960517.jpg&type=f372_372",
+      "description": "설탕을 뿌린듯 달콤한 대추방울토마토",
+      "tags": [
+        "대추방울토마토",
+        "친환경",
+        "유기농"
+      ],
+      "farmerId": "farmer003",
+      "farmerName": "이성실",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:10:00.000Z"
+    },
+    {
+      "id": "prod018",
+      "name": "향긋한 깻잎",
+      "price": 2000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2025_02_18_1104%2FgfmtNtXIk7_03.jpg&type=a340",
+      "description": "쌈 싸름한 향이 일품인 깻잎",
+      "tags": [
+        "깻잎",
+        "친환경",
+        "소포장"
+      ],
+      "farmerId": "farmer004",
+      "farmerName": "박건강",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:15:00.000Z"
+    },
+    {
+      "id": "prod019",
+      "name": "파릇파릇 부추",
+      "price": 3000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_5642733%2F56427337699.jpg&type=f372_372",
+      "description": "부침개, 무침 등 활용도 만점 부추",
+      "tags": [
+        "부추",
+        "유기농",
+        "소포장"
+      ],
+      "farmerId": "farmer005",
+      "farmerName": "정푸릇",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:20:00.000Z"
+    },
+    {
+      "id": "prod020",
+      "name": "튼실한 감자",
+      "price": 7000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fshop1.phinf.naver.net%2F20240926_10%2F1727337835387MEAke_JPEG%2F61470654941555724_424443750.jpg&type=a340",
+      "description": "포슬포슬 맛있는 튼실한 감자",
+      "tags": [
+        "감자",
+        "친환경",
+        "유기농"
+      ],
+      "farmerId": "farmer006",
+      "farmerName": "윤탐스",
+      "isFeatured": true,
+      "createdAt": "2025-09-16T10:25:00.000Z"
+    }
+  ],
+  "stories": [
+    {
+      "id": "story001",
+      "title": "오늘 아침, 싱싱한 토마토 수확!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/09/01/10/23/tomato-1566160_1280.jpg",
+      "date": "2023-10-27",
+      "content": "아침 일찍부터 밭에서 토마토를 수확했어요. 싱싱함이 가득합니다!",
+      "likes": [
+        "u2",
+        "u3",
+        "admin001"
+      ],
+      "comments": [
+        {
+          "id": "c1",
+          "author": "이구매",
+          "date": "2023-10-27",
+          "content": "정말 신선해 보여요!"
+        }
+      ],
+      "farmerId": "farmer001",
+      "farmerName": "김파밍",
+      "images": [
+        "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg02-static.xinhua-news.com%2FimageServer%2Fimage%2Fbba04f1f3972a8b1%2F642aa39af3e82afe2b609b01.JPG&type=a340"
+      ],
+      "isRecommended": true
+    },
+    {
+      "id": "story002",
+      "title": "스마트팜의 하루",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/09/27/09/48/smart-2791490_1280.jpg",
+      "date": "2023-10-26",
+      "content": "스마트팜 센서로 온도와 습도를 조절하며 작물들이 무럭무럭 자라고 있어요.",
+      "likes": [
+        "u1",
+        "u2",
+        "admin001"
+      ],
+      "comments": [
+        {
+          "id": "c2",
+          "author": "최소비",
+          "date": "2023-10-26",
+          "content": "우와, 신기하네요!"
+        },
+        {
+          "id": "c1757925376886",
+          "userId": "admin001",
+          "userName": "관리자",
+          "text": "응??",
+          "date": "2025-09-15T08:36:16.886Z"
+        }
+      ],
+      "farmerId": "farmer001",
+      "farmerName": "김파밍",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MDlfNjQg%2FMDAxNzIzMTgxODc3Mzc5.XQfq3YGAwZbrLXfwDeZQPEbGQNnU9ES3YNK_do1qnaUg.pXMrMdpRiU9WxHQohnlIo2hP6z-pePhqN2ovXv08l0Ag.JPEG%2F%25C3%25E6%25B3%25B2%25B3%25F3%25BE%25F7%25BF%25AC%25BC%25F6%25BF%25F8_21.jpg&type=a340"
+      ],
+      "isRecommended": true
+    },
+    {
+      "id": "story003",
+      "title": "감귤밭의 가을",
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/09/09/16/06/citrus-2733979_1280.jpg",
+      "date": "2023-10-25",
+      "content": "노랗게 익어가는 감귤들을 보며 가을을 만끽하고 있어요.",
+      "likes": [
+        "u1",
+        "u3"
+      ],
+      "comments": [],
+      "farmerId": "farmer002",
+      "farmerName": "최싱싱",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20120424_41%2Fvegshop_1335229036819wTdoW_JPEG%2F1335229034837.jpg&type=a340"
+      ],
+      "isRecommended": true
+    },
+    {
+      "id": "story004",
+      "title": "이천 쌀 수확 현장",
+      "imageUrl": "",
+      "date": "2025-09-14",
+      "content": "황금빛 들녘에서 이천 쌀을 수확하는 날! 올해도 풍년입니다.",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer003",
+      "farmerName": "이싱싱",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F001%2F2013%2F08%2F12%2FPYH2013081202870005300_P2_59_20130812114510.jpg&type=a340"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story005",
+      "title": "싱싱 배추의 성장 일기",
+      "imageUrl": "",
+      "date": "2025-09-10",
+      "content": "아침 이슬 맞고 자란 싱싱 배추, 김장 준비 완료!",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer003",
+      "farmerName": "이싱싱",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMjhfMTIy%2FMDAxNzQzMTMxMTE1MTA5.aSy-iwrhXDmydTz0QUX__y0eKA0rmRGgi2R0VJKfOBsg.MGnym7BPin_n1pbtZ8n9wcXg94x7Zo9ngYutlTsKymIg.JPEG%2F1_%25281%2529.jpg&type=a340"
+      ],
+      "isRecommended": false,
+      "farmerProfileImageUrl": "https://search.pstatic.net/sunny/?src=https%3A%2F%2Fst2.depositphotos.com%2F1480128%2F7580%2Fi%2F450%2Fdepositphotos_75807455-stock-photo-farmer-in-soybean-fields.jpg&type=a340"
+    },
+    {
+      "id": "story006",
+      "title": "제천 약초 캐는 날",
+      "imageUrl": "",
+      "date": "2025-09-13",
+      "content": "산 속 깊이 숨겨진 귀한 약초를 찾아 나섰습니다. 건강이 최고!",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer004",
+      "farmerName": "박건강",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MDRfNzUg%2FMDAxNzI1NDI1OTE2NDY5.Z2ACJrnsDCDzlcvMfkMzAI8uWku2skXXch4iSjskIFAg.gt8fFKtIxl7C-gCeTZRMVicwLYZUFtSHMpDKDP59g3cg.JPEG%2F20240903%25A3%25DF082500.jpg&type=a340"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story007",
+      "title": "건강 사과, 탐스러운 결실",
+      "imageUrl": "",
+      "date": "2025-09-11",
+      "content": "빨갛게 익어가는 사과들을 보니 마음이 풍요롭습니다.",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer004",
+      "farmerName": "박건강",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5388%2F2024%2F09%2F29%2F0000045621_003_20240929171218676.jpg&type=a340"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story008",
+      "title": "순천 매실, 수확의 기쁨",
+      "imageUrl": "",
+      "date": "2025-09-12",
+      "content": "탱글탱글 잘 익은 매실, 매실청으로 변신할 준비 완료!",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer005",
+      "farmerName": "정푸릇",
+      "images": [
+        "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8942507%2F89425073294.jpg&type=f372_372"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story009",
+      "title": "푸릇푸릇 시금치 밭",
+      "imageUrl": "",
+      "date": "2025-09-09",
+      "content": "싱그러운 시금치 밭에서 아침을 맞이합니다. 건강한 하루 시작!",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer005",
+      "farmerName": "정푸릇",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MThfMjE4%2FMDAxNjk0OTczMzAwNjkx.rzNryOq5xATjhAIz9_rDgHSajRYgK2zOfPBTKsTp4Rgg.q0bOt1n8zLDGEe5aLUVJTnHZDO-P9viFbSfuVopWk1Yg.JPEG.1219m%2F1658295254190.jpg&type=a340"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story010",
+      "title": "상주 곶감, 가을의 선물",
+      "imageUrl": "",
+      "date": "2025-09-14",
+      "content": "정성껏 말린 상주 곶감, 달콤함이 일품입니다.",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer006",
+      "farmerName": "윤탐스",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA2MjNfMjE1%2FMDAxNzE5MTI5MTI5ODU4.IzCWQyYhIUSNqFMfPyoFJrRhRdcfvTJJLCIPEvKmxV8g.LNDOs5ralsMJncWYwbCsN9VNn438m2M7Fam_lPrlfowg.JPEG%2F1718514003726.jpg&type=a340"
+      ],
+      "isRecommended": false
+    },
+    {
+      "id": "story011",
+      "title": "탐스러운 포도밭 이야기",
+      "imageUrl": "",
+      "date": "2025-09-10",
+      "content": "알알이 영근 포도, 수확의 계절이 돌아왔어요!",
+      "likes": [],
+      "comments": [],
+      "farmerId": "farmer006",
+      "farmerName": "윤탐스",
+      "images": [
+        "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F001%2F2023%2F10%2F26%2FPYH2023102616470005400_P4_20231026151211462.jpg&type=a340"
+      ],
+      "isRecommended": false
+    }
+  ],
+  "reviews": [],
+  "reports": [
+    {
+      "id": "d90e",
+      "userId": "farmer001",
+      "category": "etc",
+      "content": "잘되나.\n",
+      "createdAt": "2025-09-16T04:32:45.476Z",
+      "status": "new"
+    }
+  ],
+  "cart": [
+    {
+      "id": "ede9",
+      "userId": "consumer002",
+      "productId": "prod002",
+      "name": "친환경 상추 묶음",
+      "price": 6500,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshop-phinf.pstatic.net%2F20250305_200%2F1741134362171LX10U_JPEG%2F34038831811762497_1921607388.jpg&type=a340",
+      "quantity": 1
+    },
+    {
+      "id": "e20e",
+      "userId": "consumer002",
+      "productId": "prod001",
+      "name": "유기농 복숭아",
+      "price": 12000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8969953%2F89699535517.2.jpg&type=f372_372",
+      "quantity": 1
+    },
+    {
+      "id": "ce74",
+      "userId": "farmer001",
+      "productId": "prod003",
+      "name": "이천 쌀",
+      "price": 25000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMDFfMTg0%2FMDAxNzQwNzkxNzE2NDc3.SfV0gHaNKxUoBqhZjBfXage7TmNjciTP_br61B4DgAog.FGKDAUrUp22d0sqFrfXIzeDmNMk5GlLF88t1fKB3Xcgg.JPEG%2F86552da0-c79e-403f-a581-ab46356e8501.jpg&type=a340",
+      "quantity": 1
+    },
+    {
+      "id": "826c",
+      "userId": "farmer001",
+      "productId": "1a96",
+      "name": "귤귤귤",
+      "price": 30000,
+      "imageUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMDNfMjEz%2FMDAxNzM4NTQ2NTUzMjU4.gy72c_Z2CDLos4OBWnBuRAVrbxI8t71oW2OKSHmsd30g.q9H-SO2vdMKTicXsuvoASjbhpxRz-vtQOPnieKfD3eMg.JPEG%2F%25B1%25D6_%25C8%25BF%25B4%25C9_%25C7%25CF%25B7%25E7_%25B1%25C7%25C0%25E5%25B7%25AE_%25282%2529.jpg&type=a340",
+      "quantity": 1
+    },
+    {
+      "id": "c9de",
+      "userId": "admin001",
+      "productId": "3875",
+      "name": "제주도 방울토마토",
+      "price": 20000,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_5642727%2F56427270285.jpg&type=f372_372",
+      "quantity": 1
+    }
+  ],
+  "follows": [],
+  "wishlist": [
+    {
+      "id": "73b5",
+      "userId": "admin001",
+      "productId": "e1a4"
+    },
+    {
+      "id": "c2f0",
+      "userId": "consumer002",
+      "productId": "prod020"
+    },
+    {
+      "id": "93c2",
+      "userId": "farmer001",
+      "productId": "prod018"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+/* src/components/common/Footer.css */
+
+.site-footer.new-style {
+    background-color: white; /* 배경색을 흰색으로 변경 */
+    color: #4b5563; /* 텍스트 색상을 진한 회색으로 변경 */
+    padding: 2rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid #e5e7eb; /* 상단에 구분선 추가 */
+    font-size: 0.9rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+/* 기존 footer-title 제거 */
+
+.footer-info {
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* 작은 화면에서 줄바꿈 되도록 */
+    gap: 1.5rem; /* 링크 간 간격을 넓힘 */
+    padding: 0;
+    list-style: none; /* 리스트 스타일 제거 */
+}
+
+.footer-link {
+    color: #4b5563; /* 링크 색상 조정 */
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #1a522a; /* 호버 시 색상 강조 */
+    text-decoration: underline;
+}

@@ -1,0 +1,18 @@
+.organic-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.organic-page .page-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.organic-products-section {
+  margin-top: 20px;
+}

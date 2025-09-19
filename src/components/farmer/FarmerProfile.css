@@ -1,0 +1,83 @@
+/* src/components/farmer/FarmerProfile.css */
+
+.farmer-profile {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #bbf7d0;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.profile-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  margin-left: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.verified-badge {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.smart-farm-badge {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.profile-bio {
+  color: #4b5563;
+  margin-top: 0.25rem;
+  font-size: 1.125rem;
+}
+
+.profile-location {
+  color: #666;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.follow-action {
+  margin-left: auto;
+}
+
+.follow-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #166534;
+  color: white;
+  font-size: 1.125rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.follow-button:hover {
+  background-color: #14532d;
+}

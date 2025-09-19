@@ -1,0 +1,64 @@
+/* src/components/common/Modal.css */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top */
+}
+
+.modal-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  width: 90%; /* Responsive width */
+  max-width: 600px; /* Max width for larger screens */
+  max-height: 90vh; /* Max height for scrolling */
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.modal-close-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #6b7280;
+  transition: color 0.2s ease;
+  padding: 0;
+}
+
+.modal-close-btn:hover {
+  color: #1f2937;
+  transform: rotate(90deg); /* Little animation */
+}
+
+.modal-body {
+  flex-grow: 1; /* Allows body to take available space */
+  overflow-y: auto; /* Enable scrolling for content */
+  padding-right: 5px; /* Prevent scrollbar from overlapping content */
+}

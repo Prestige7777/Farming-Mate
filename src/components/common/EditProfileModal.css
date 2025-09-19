@@ -1,0 +1,57 @@
+/* src/components/common/EditProfileModal.css */
+
+.edit-profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edit-profile-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--text-color-light);
+}
+
+.edit-profile-form .form-group input[type="text"],
+.edit-profile-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.edit-profile-form .form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-profile-form .form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.edit-profile-form .form-actions button {
+  padding: 10px 20px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-profile-form .form-actions button[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+}
+
+.edit-profile-form .form-actions button[type="button"] {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}

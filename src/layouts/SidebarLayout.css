@@ -1,0 +1,36 @@
+/* 레이아웃 전체 셸 (사이드바 + 메인) */
+.app-shell {
+    --sidebar-width-open: 280px;
+    --sidebar-width-closed: 72px;
+    --transition: 220ms ease;
+    min-height: 100vh;
+    /* display: grid; */
+    /* grid-template-columns: var(--sidebar-width-open) 1fr; */
+    /* transition: grid-template-columns var(--transition); */
+    background: #ffffff;
+  }
+  
+  .app-shell.sidebar-closed {
+    /* grid-template-columns: var(--sidebar-width-closed) 1fr; */
+  }
+
+  .app-main {
+    min-height: 100vh;
+    padding: 16px;
+    transition: margin-left var(--transition), padding var(--transition), transform var(--transition);
+    margin-left: var(--sidebar-width-open);
+  }
+
+  .app-shell.sidebar-closed .app-main {
+    margin-left: var(--sidebar-width-closed);
+  }
+  
+  /* 메인 영역 */
+  .app-main {
+    min-height: 100vh;
+    padding: 16px;
+    transition: padding var(--transition), transform var(--transition);
+  }
+  
+  /* (기존 햄버거 버튼은 제거) */
+  

@@ -1,0 +1,71 @@
+/* src/pages/admin/ReportManagementPage.css */
+.report-management-page {
+  padding: 2rem;
+}
+
+.report-management-page h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.report-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.report-list th,
+.report-list td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.report-list th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.report-list .content-cell {
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status-badge {
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-new {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.status-read {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.status-done {
+  background-color: #28a745;
+  color: white;
+}
+
+.action-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #0056b3;
+}

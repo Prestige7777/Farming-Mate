@@ -1,0 +1,40 @@
+.wishlist-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wishlist-page-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.empty-message {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+  grid-column: 1 / -1; /* Spans across all columns */
+  padding: 50px 0;
+}
+
+.wishlist-page-needs-login {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.2em;
+  color: #666;
+}
+
+.wishlist-page-needs-login h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 15px;
+}

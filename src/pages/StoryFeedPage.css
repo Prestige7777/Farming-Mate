@@ -1,0 +1,55 @@
+/* src/pages/StoryFeedPage.css */
+
+.story-feed-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.story-feed-main {
+  flex-grow: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.page-title {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.page-subtitle {
+  font-size: 1.125rem;
+  color: #4b5563;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 640px) {
+  .story-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .story-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.empty-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #666;
+}

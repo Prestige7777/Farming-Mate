@@ -1,0 +1,70 @@
+/* src/components/marketplace/CartItem.css */
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.cart-item-info {
+  flex-grow: 1;
+}
+
+.cart-item-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.cart-item-farmer {
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.cart-item-price {
+  color: #1a522a;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.quantity-btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.quantity-display {
+  font-size: 1.125rem;
+  font-weight: 500;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.remove-btn {
+  margin-left: 1rem;
+  color: #ef4444;
+  border-color: #ef4444;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.remove-btn:hover {
+  background-color: #fef2f2;
+}

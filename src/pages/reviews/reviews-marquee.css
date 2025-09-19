@@ -1,0 +1,17 @@
+.reviews-marquee { overflow: hidden; border-radius: 12px; border: 1px solid #eee; background: #fff; }
+.reviews-marquee .track {
+  display: inline-flex; gap: 12px; padding: 12px;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+.reviews-marquee .card {
+  min-width: 260px; max-width: 320px; border: 1px solid #eee; border-radius: 10px; padding: 12px; background: #fafafa; position: relative;
+}
+.reviews-marquee .card .tag {
+  position: absolute; top: 10px; right: 10px; background: #111827; color: #fff; border-radius: 999px; padding: 2px 8px; font-size: 12px;
+}
+.reviews-marquee .stars { color: #f59e0b; }
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

@@ -1,0 +1,1 @@
+export const DEFAULT_IMAGE_URL = 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAyMjRfNjMg%2FMDAxNjc3MTc5OTYzNjA5.5whsGhVMH-6zPg09YYDrxzkqK5VaLD5-ZFbwV9bCUHYg.nu1zp5-rSmYSoAAKsAHNg6z6MHBKchUViu2hoXwtHX8g.PNG.npay1%2FSmartSelect%25A3%25DF20230224%25A3%25DF040323%25A3%25DFGallery.png&type=a340';

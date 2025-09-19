@@ -1,0 +1,54 @@
+/* src/components/auth/AuthForm.css */
+
+.auth-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  color: #4b5563;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #16a34a;
+  border-color: #16a34a;
+}
+
+.submit-btn {
+  width: 100%;
+}

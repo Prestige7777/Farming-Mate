@@ -1,0 +1,68 @@
+/* src/pages/ReportProblemPage.css */
+.report-problem-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.report-problem-page h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.report-problem-page p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

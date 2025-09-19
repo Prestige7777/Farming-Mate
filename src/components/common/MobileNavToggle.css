@@ -1,0 +1,27 @@
+.mobile-nav-toggle {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 100;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mobile-nav-toggle {
+        display: block; /* Visible on mobile */
+    }
+}
+
+.hamburger-icon span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #333;
+    margin: 4px 0;
+    transition: all 0.3s ease-in-out;
+}

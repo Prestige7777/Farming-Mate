@@ -1,0 +1,57 @@
+/* src/pages/ProductListPage.css */
+
+.product-list-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.product-list-main {
+  flex-grow: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .content-container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 25%;
+  }
+
+  .main-content {
+    width: 75%;
+  }
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.no-products-message {
+  text-align: center;
+  color: #666;
+  font-size: 1.125rem;
+  padding: 3rem 0;
+}

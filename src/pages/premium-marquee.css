@@ -1,0 +1,4 @@
+.premium-marquee { overflow: hidden; border: 1px solid #eee; border-radius: 12px; background: #fff; }
+.premium-marquee .track { display: inline-flex; gap: 16px; padding: 12px; animation: marquee 28s linear infinite; }
+.premium-marquee .voice { display: inline-flex; align-items: center; gap: 10px; min-width: 320px; border: 1px solid #eee; border-radius: 10px; padding: 10px; background: #fafafa; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
