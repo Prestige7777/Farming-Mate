@@ -786,24 +786,6 @@
   ],
   "cart": [
     {
-      "id": "ede9",
-      "userId": "consumer002",
-      "productId": "prod002",
-      "name": "친환경 상추 묶음",
-      "price": 6500,
-      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshop-phinf.pstatic.net%2F20250305_200%2F1741134362171LX10U_JPEG%2F34038831811762497_1921607388.jpg&type=a340",
-      "quantity": 1
-    },
-    {
-      "id": "e20e",
-      "userId": "consumer002",
-      "productId": "prod001",
-      "name": "유기농 복숭아",
-      "price": 12000,
-      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fshopping-phinf.pstatic.net%2Fmain_8969953%2F89699535517.2.jpg&type=f372_372",
-      "quantity": 1
-    },
-    {
       "id": "ce74",
       "userId": "farmer001",
       "productId": "prod003",
