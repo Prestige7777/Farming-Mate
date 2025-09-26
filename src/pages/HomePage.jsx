@@ -30,7 +30,7 @@ const HomePage = () => {
         ]);
 
         const productsWithFarmerInfo = products.map(product => {
-          const farmer = farmers.find(f => f.id === product.farmerId);
+          const farmer = farmers.find(f => f.id == product.farmerId);
           return {
             ...product,
             farmerProfileImageUrl: farmer?.profileImageUrl || '',
